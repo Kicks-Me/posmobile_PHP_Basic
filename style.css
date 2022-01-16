@@ -1,0 +1,92 @@
+* {
+			padding: 0px;
+			margin: 0px;
+			box-sizing: border-box;
+		}
+
+		input[type=text], [type=number], [type=password], [type=email], textArea, button, select, label {
+			font-size: 1.1rem;
+		}
+
+		#idNotfound {
+			background-image: url('images/P404-desk.jpg'); 
+			background-attachment: fixed;
+			background-size: 70% 70%;
+			background-repeat: no-repeat;
+			background-position: center;
+			height: calc(100vh - 70px); 
+			width:100%;	
+		}
+		#notfoundbtn {
+			margin-top:calc(100vh - 183px); 
+			margin-left: calc(50% - 70px);
+		}
+
+		#empinfo {
+			background-color: #fff;
+			width: 81.25%; 
+			height:40px; 
+			position: fixed; 
+			z-index:8; 
+			border-bottom:2px solid #e2e2e2;
+		}
+
+
+		@media only screen and (max-width: 992px) {
+			#idNotfound {
+				background-image: url('images/P404-mobile1.png');
+				background-attachment: fixed;
+				background-size: auto 100%;
+				background-repeat: no-repeat;
+				background-position: center;
+				height: calc(100vh - 70px);
+				width:100%;		
+			}
+			#notfoundbtn {
+				margin-top:calc(100vh - 183px); 
+				margin-left: calc(50% - 60px);
+			}
+
+			#empinfo {				
+				width: 93.6%; 
+			}
+		}
+
+		@media only screen and (max-width: 768px) {
+		  #idNotfound {
+				background-image: url('images/P404-mobile1.png');
+				background-attachment: fixed;
+    			background-size: auto 100%;
+    			background-repeat: no-repeat;
+    			background-position: center;
+				height: calc(100vh - 70px);
+				width:100%;		
+			}
+			#notfoundbtn {
+				margin-top:calc(100vh - 183px); 
+				margin-left: calc(50% - 60px);
+			}
+
+			#empinfo #cateInfo {				
+				width: 89.93%; 
+			}
+		}
+		@media only screen and (max-width: 576px) {
+		  #idNotfound {
+				background-image: url('images/P404-mobile1.png');
+				background-attachment: fixed;
+    			background-size: auto 100%;
+    			background-repeat: no-repeat;
+    			background-position: center;
+				height: calc(100vh - 70px);
+				width:100%;		
+			}
+			#notfoundbtn {
+				margin-top:calc(100vh - 183px); 
+				margin-left: calc(50% - 60px);
+			}
+
+			#empinfo {				
+				width: 88.33%; 
+			}
+		}
